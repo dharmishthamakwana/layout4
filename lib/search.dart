@@ -19,7 +19,7 @@ class _SearchState extends State<Search> {
           actions: const [
             Icon(Icons.search),
             SizedBox(width: 20),
-            Icon(Icons.menu),
+            Icon(Icons.more_vert),
           ],
         ),
         body: Center(
