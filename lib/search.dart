@@ -22,22 +22,25 @@ class _SearchState extends State<Search> {
             Icon(Icons.menu),
           ],
         ),
-
         body: Center(
-          child: Column(mainAxisAlignment: MainAxisAlignment.center,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Center(
-              child: Center(
-                child: Column(
-                  children: [
-                    Icon(Icons.search_rounded, size: 100),
-                    Text("NO Result\n",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20),),
-                    Text("Try a more general keyword."),
-                  ],
+                child: Center(
+                  child: Column(
+                    children: [
+                      Icon(Icons.search_rounded, size: 100),
+                      Text(
+                        "NO Result\n",
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold, fontSize: 20),
+                      ),
+                      Text("Try a more general keyword."),
+                    ],
+                  ),
                 ),
               ),
-            ),
-
             ],
           ),
         ),
