@@ -3,7 +3,7 @@ import 'package:pr2/search.dart';
 void main()
 {
   runApp(
-    MaterialApp(
+    const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Search(),
     ),

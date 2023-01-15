@@ -14,9 +14,9 @@ class _SearchState extends State<Search> {
       child: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.black,
-          leading: Icon(Icons.arrow_back),
-          title: Text("Search"),
-          actions: [
+          leading: const Icon(Icons.arrow_back),
+          title: const Text("Search"),
+          actions: const [
             Icon(Icons.search),
             SizedBox(width: 20),
             Icon(Icons.menu),
@@ -29,7 +29,7 @@ class _SearchState extends State<Search> {
               Center(
                 child: Center(
                   child: Column(
-                    children: [
+                    children: const [
                       Icon(Icons.search_rounded, size: 100),
                       Text(
                         "NO Result\n",
